@@ -1,0 +1,4 @@
+MyEIP:
+  Type: EC2
+  Properties:
+    InstanceId: i-00000000000000001
