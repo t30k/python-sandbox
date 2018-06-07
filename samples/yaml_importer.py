@@ -1,7 +1,7 @@
 import yaml
 
 def import_yml():
-    with open('test.yaml') as file:
+    with open('../test.yaml') as file:
         data = yaml.load(file)
         myeip = data['MyEIP']
         type = myeip['Type']
